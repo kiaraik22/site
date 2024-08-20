@@ -3,12 +3,31 @@
 
 <head>
     <title>Главная страница</title>
+    <style>
+        td,
+        th {
+            border: solid 1px blue;
+        }
+
+        #table1 {
+            border-collapse: collapse;
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        th {
+            color: red;
+        }
+    </style>
 </head>
 
 <body>
     <h1 align="center"> <u> Мой первый сайт! </u> </h1>
 
-    <p align="center"><img src="C:\Users\student\Documents\Bylatova\site\img\imr.jpg" width="1600" height="800"></p>
+    <a href="#table1">
+        <p align="center"><img src="./img/imr.jpg" alt="Моё изображение" width="1400" height="800"></p>
+    </a>
+
     <h2 align="center"> <b>Несколько фактов об океане </b></h2>
     <details>
         <summary>Факты</summary>
@@ -32,6 +51,41 @@
         <li>Кораллы производят свое собственное солнцезащитное средство</li>
         <li>В океане достаточно золота, чтобы каждому из нас досталось по четыре килограмма</li>
     </ul>
+
+    <h2 align="center">Таблицы</h2>
+
+
+    <table id="table1">
+        <thead>
+            <tr>
+                <th>Имя</th>
+                <th>Фамилия</th>
+                <th>Номер телефона</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Михаил</td>
+                <td>Егоров</td>
+                <td>89212055847</td>
+            </tr>
+            <tr>
+                <td>Артем</td>
+                <td>Егоров</td>
+                <td>89213056895</td>
+            </tr>
+            <tr>
+                <td>Марина</td>
+                <td>Егорова</td>
+                <td>89116598745</td>
+            </tr>
+            <tr>
+                <td>Егор</td>
+                <td>Михайлов</td>
+                <td>89115236589</td>
+            </tr>
+        </tbody>
+    </table>
 
 
 </body>

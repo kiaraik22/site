@@ -1,0 +1,73 @@
+<!-- method отправки данных на сервер(get или post)-->
+<!-- action(адрес, на который передаются данные формы)-->
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Формы</title>
+</head>
+
+<body>
+    <form action="#" method="post" enctype="application/x-www-form-urlencoded">
+        <p>
+            <label for="login">Login</label>
+            <input id="login" name="login" type="text" placeholder="Login" maxlength="5" autofocus />
+        </p>
+
+        <P>
+            <label for="password">Password</label>
+            <input name="password" type="password" placeholder="Password" />
+        </P>
+
+        <P>
+            <input name="phone" type="text" value="123456789" disabled />
+            <label for="phone">Phone</label>
+        </P>
+
+        <P>
+            <input name="age" type="number" min="12" max="120" step="10" />
+            <label for="age">Age</label>
+        </P>
+
+        <P>
+            <label for="rbutton">Радио-кнопка</label>
+            <input name="rbutton" type="radio" />
+        </P>
+
+        <P>
+            <label for="file">Файл</label>
+            <input name="file" type="file" />
+        </P>
+
+        <P>
+            <label for="chbox">Чекбокс</label>
+            <input name="chbox" type="checkbox" />
+        </P>
+
+        <P>
+            <label for="chbox2">Чекбокс 2</label>
+            <input name="chbox2" type="checkbox" checked />
+        </P>
+
+        <P>
+            <label for="color">Цвет</label>
+            <input name="color" type="color" />
+        </P>
+
+        <P>
+            <label for="range">Ползунок</label>
+            <input name="range" type="range" min="1" max="10" step="1" />
+        </P>
+
+        <p>
+            <input type="submit" value="Войти" />
+        </p>
+
+        <p>
+            <input type="reset" value="Сбросить" />
+        </p>
+
+    </form>
+</body>
+
+</html>
