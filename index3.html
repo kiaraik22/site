@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>примеры к index2</title>
+</head>
+<style>
+    /*  padding; 1px; - применяются для всех сторон
+        padding: 10px 20px; - top and bottom/left and right
+        padding: 10 px 20px 30px top/left and right bottom
+        padding: 5px 2px 0 6px top/right/bottom/left 
+    */
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 5;
+        padding: 0;
+
+    }
+
+    header {
+        background-color: #d7aeed;
+        color: rgb(2, 2, 2);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    footer {
+        background-color: #d7aeed;
+        color: black;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        font-weight: bold;
+    }
+
+    main {
+        display: flex;
+        padding: 20px;
+
+    }
+
+    article {
+        flex: 3;
+        margin-right: 20px;
+    }
+</style>
+
+<body>
+    <header>
+        Заголовок сайта (верхнее меню)
+    </header>
+    <main>
+        <article>
+            <h2>Основная статья</h2>
+            <section>
+                <h3>Раздел первый</h3>
+                <p>Это содержимое первого раздела основной статьи.</p>
+            </section>
+            <section>
+                <h3>Раздел два</h3>
+                <p>Это содержимое второго раздела основной статьи</p>
+            </section>
+        </article>
+        <aside>
+            <h2>Боковая панель</h2>
+            <p>Это содержимое боковой панели</p>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 Пример сайта. Все права защищены</p>
+    </footer>
+</body>
+
+</html>
